@@ -745,3 +745,37 @@ float: right;
 	float: right;
 
 }
+
+.section-4 p{
+	text-align: justify;
+
+
+}
+
+* {
+	box-sizing: border-box;
+	
+  }
+  
+  .zoom {
+	padding: 50px;
+	width: 700px;
+	height: 450px;
+	margin: 0 auto;
+	transition: transform .2s;
+	background-image: url('../images/wireframes.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+	position: relative;
+
+
+  }
+  
+  .zoom:hover {
+	-ms-transform: scale(2); /* IE 9 */
+	-webkit-transform: scale(2); /* Safari 3-8 */
+	transform: scale(2); 
+  }
+  
