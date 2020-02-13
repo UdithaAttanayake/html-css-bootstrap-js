@@ -387,7 +387,7 @@ background:linear-gradient(160deg,#16c9f6 55%,#fff 0%);
 }
 
 .money{
-	font-size: 40px;
+	font-size: 20px;
 	line-height: 1;
 	color:#606060;
 }
@@ -408,7 +408,7 @@ background:linear-gradient(160deg,#16c9f6 55%,#fff 0%);
 
 }
 
-.card-body li{
+.card-body p{
 	margin:10px 0 ;
 	font-weight: 400;
 	font-size: 15px;
@@ -650,6 +650,9 @@ form:hover .form-button button{
 
 	  
 
+  }
+  .row1{
+	  margin-top: -6em;
   }
   .row:vertical-align {
     display: flex;
